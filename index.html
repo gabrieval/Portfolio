@@ -1,38 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css" />
-    <!-- FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
-      rel="stylesheet"
-    />
 
-    <title>Inicio - Mi Sitio Web</title>
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" />
 
-  <body>
-    <div class="contenedor">
-      <header>
-        <nav class="navbar">
-          <ul>
-            <li><a href="index.html" class="active">Inicio</a></li>
-            <li><a href="proyectos.html">Proyectos</a></li>
-            <li><a href="sobre-mi.html">Sobre mí</a></li>
-            <li><a href="galeria.html">Galería</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-          </ul>
-        </nav>
-      </header>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+    rel="stylesheet" />
 
-      <main>
-        <section>
-          <h1 class="titulo">Portafolio de Gabriela</h2>
+  <title>Inicio - Mi Sitio Web</title>
+</head>
+
+<body>
+  <div class=" contenedor">
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand mx-auto d-lg-none" href="index.html">Portfolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="proyectos.html">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sobre-mi.html">Sobre mi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="galeria.html">Galería</a>
+              </li>
+              <li>
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h1 class="titulo">Portafolio de Gabriela</h2>
           <div class="contenido">
             <p>
               Bienvenido a mi portafolio. Aquí encontrarás una muestra de mis
@@ -44,15 +63,21 @@
               contactarme si tienes alguna pregunta o propuesta de colaboración.
             </p>
           </div>
-        </section>
-          <div class="imagen-contenedor">
-            <img src="img/sobre-mi.png" Descripción" class="imagen-estilizada">
-          </div>
-      </main>
+      </section>
+      <div class="imagen-contenedor">
+        <img src="img/sobre-mi.png" Descripción" class="imagen-estilizada">
+      </div>
+    </main>
 
-      <footer>
-        <p class="footer">&copy; 2025 - Desarrollado por Gabriela Valenzuela</p>
-      </footer>
-    </div>
-  </body>
+    <footer>
+      <p class="footer">&copy; 2025 - Desarrollado por Gabriela Valenzuela</p>
+    </footer>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

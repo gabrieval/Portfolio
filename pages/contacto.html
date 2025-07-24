@@ -51,7 +51,7 @@
     </header>
 
     <main>
-      <section>
+      <section class="pagina-contenedor">
         <h1 class="titulo">Contacto</h1>
         <div class="contenido">
           <p>
@@ -62,15 +62,27 @@
         </div>
 
         <form action="#" method="post">
-          <label for="nombre">Nombre:</label>
-          <input type="text" id="nombre" name="nombre" required />
-          <label for="apellido">Apellido:</label>
-          <input type="text" id="apellido" name="apellido" required />
-          <label for="email">Correo electrónico:</label>
-          <input type="email" id="email" name="email" required />
-          <label for="mensaje">Mensaje:</label>
-          <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
-          <button type="submit">Enviar</button>
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label for="nombre" class="form-label text-light">Nombre</label>
+              <input type="text" class="form-control" id="nombre" name="nombre" required />
+            </div>
+            <div class="col-md-6">
+              <label for="apellido" class="form-label text-light">Apellido</label>
+              <input type="text" class="form-control" id="apellido" name="apellido" required />
+            </div>
+            <div class="col-12">
+              <label for="email" class="form-label text-light">Correo electrónico</label>
+              <input type="email" class="form-control" id="email" name="email" required />
+            </div>
+            <div class="col-12">
+              <label for="mensaje" class="form-label text-light">Mensaje</label>
+              <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
+            </div>
+            <div class="col-12 text-center mt-3">
+              <button type="submit" class="btn btn-primary px-5">Enviar</button>
+            </div>
+          </div>
         </form>
       </section>
     </main>

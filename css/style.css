@@ -293,6 +293,14 @@ p {
   font-size: 14px;
 }
 
+.descripcion-app {
+  text-align: justify;
+  padding: 0;
+  color: #f3f6fb;
+  margin: 0;
+  font-size: 14px;
+}
+
 .proyecto {
   margin: 10px;
 }
